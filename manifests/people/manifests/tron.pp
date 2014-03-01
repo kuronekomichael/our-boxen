@@ -1,4 +1,4 @@
-class people::kuronekomichael {
+class people::tron {
 
   # Puppetfile で定義したもの
   include chrome
