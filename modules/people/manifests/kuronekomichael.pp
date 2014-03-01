@@ -3,7 +3,7 @@ class people::kuronekomichael {
   # Puppetfile で定義したもの
   include chrome
   include chrome::canary
-  include iterm2
+  include iterm2::stable
   include wget
   include firefox
   include charles
