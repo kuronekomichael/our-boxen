@@ -75,7 +75,6 @@ class people::kuronekomichael {
       'libyaml',
       'nvm',
       'rtmpdump',
-      'wget',
       'cmake',
       'gdbm',
       'lha',
