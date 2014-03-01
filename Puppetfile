@@ -1,4 +1,5 @@
 # This file manages Puppet module dependencies.
+# このファイルはPuppetモジュールの依存関係を管理します
 #
 # It works a lot like Bundler. We provide some core modules by
 # default. This ensures at least the ability to construct a basic
@@ -34,6 +35,9 @@ github "boxen", "3.3.8"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
+# search to https://github.com/boxen
+#      "name"         "tag"
+#----------------------------
 github "dnsmasq",     "1.0.1"
 github "foreman",     "1.1.0"
 github "gcc",         "2.0.1"
@@ -56,3 +60,47 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "iterm2"             "1.0.7"
+github "wget"               "1.0.1"
+github "firefox"            "1.1.8"
+github "charles"            "1.0.4"
+github "libreoffice"        "4.1.4"
+github "skype"              "1.0.8"
+github "virtualbox"         "1.0.10"
+github "java"               "1.2.0"
+github "android"            "1.1.0"
+github "hipchat"            "1.1.0"
+github "onepassword"        "1.1.0"
+github "dropbox"            "1.2.0"
+github "alfred"             "1.1.7"
+github "heroku"             "2.1.1"
+github "eclipse"            "2.2.0"
+github "chrome"             "1.1.2"
+github "vlc"                "1.0.5"
+github "sourcetree"         "1.0.0"
+github "skitch"             "1.0.2"
+github "opennssl"           "1.0.0"
+github "sublime_text_2"     "1.1.2"
+github "inkscape"           "1.0.3"
+github "handbrake"          "1.0.1"
+github "ghostscript"        "1.0.0"
+github "nvm"                "1.0.0"
+github "imagemagick"        "1.2.1"
+github "ctags"              "1.0.0"
+github "better_touch_tools" "1.0.0"
+github "evernote"           "2.0.5"
+github "imageoptim"         "0.0.2"
+github "xtrafinder"         "1.0.1"
+
+# Keynote
+# cooViewer
+# iFunBox
+# Google Chrome Canary (include chrome::canary)
+# 0xED
+# Photoshop CS6
+# calibre
+# ImageAlpha
+# The unarchiver
+# atom
+# pogoplug
