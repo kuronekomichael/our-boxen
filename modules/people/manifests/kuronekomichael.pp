@@ -118,9 +118,10 @@ class people::kuronekomichael {
       'youtube-dl',
       'nicovideo-dl',
       'imagemagick',
-    ]
+    ]:
   }
-#      'GoogleJapaneseInput': source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg", provider => pkgdmg;
+
+# 'GoogleJapaneseInput': source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg", provider => pkgdmg;
 
   $home     = "/Users/${::boxen_user}"
   $dotfiles = "${home}/.dotfiles"
