@@ -123,8 +123,6 @@ class people::kuronekomichael {
     ]:
   }
 
-}
-
   $home     = "/Users/${::boxen_user}"
   $dotfiles = "${home}/.dotfiles"
 
