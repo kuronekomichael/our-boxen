@@ -34,7 +34,6 @@ class people::kuronekomichael {
     [
       'tmux',
       'reattach-to-user-namespace',
-      'tree',
       'pidof',
       'ctags',
       'autoconf',
@@ -84,7 +83,6 @@ class people::kuronekomichael {
       'little-cms2',
       'opencore-amr',
       'x264',
-      'ctags',
       'gettext',
       'libao',
       'libsndfile',
