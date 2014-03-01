@@ -17,8 +17,7 @@ class people::kuronekomichael {
   include dropbox
   include alfred
   include heroku
-  include eclipse
-  include chrome
+  include eclipse::java
   include vlc
   include sourcetree
   include skitch
