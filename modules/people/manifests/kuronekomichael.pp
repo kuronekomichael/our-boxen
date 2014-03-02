@@ -32,6 +32,7 @@ class people::kuronekomichael {
   # homebrew でインストールするもの
   package {
     [
+      'coreutils',
       'tmux',
       'reattach-to-user-namespace',
       'pidof',
@@ -114,6 +115,7 @@ class people::kuronekomichael {
       'nicovideo-dl',
       'imagemagick',
     ]:
+    ensure => 'latest',
   }
 
 #      'mkvtoolnix',
