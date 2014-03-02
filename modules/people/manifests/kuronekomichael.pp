@@ -109,15 +109,14 @@ class people::kuronekomichael {
       'gmp',
       'libdvdread',
       'libtool',
-      'mkvtoolnix',
       'p7zip',
-      'theora',
       'youtube-dl',
       'nicovideo-dl',
       'imagemagick',
     ]:
   }
 
+#      'mkvtoolnix',
 # 'GoogleJapaneseInput': source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg", provider => pkgdmg;
 
   $home     = "/Users/${::boxen_user}"
