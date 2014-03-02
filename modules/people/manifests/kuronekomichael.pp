@@ -7,7 +7,6 @@ class people::kuronekomichael {
   include wget
   include firefox
   include charles
-  include libreoffice
   include skype
   include virtualbox
   include java
