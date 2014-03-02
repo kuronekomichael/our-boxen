@@ -117,8 +117,35 @@ class people::kuronekomichael {
     ensure => 'latest',
   }
 
-#      'mkvtoolnix',
-# 'GoogleJapaneseInput': source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg", provider => pkgdmg;
+  package {
+      'GoogleJapaneseInput':
+        source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
+        provider => pkgdmg;
+      'RemoteDesktopConnectionClient':
+        source => "http://download.microsoft.com/download/C/F/0/CF0AE39A-3307-4D39-9D50-58E699C91B2F/RDC_2.1.1_ALL.dmg",
+        provider => pkgdmg;
+      'iFunBox':
+        source => "http://dl.i-funbox.com/mac/ifunboxmac.dmg",
+        provider => appdmg;
+      'calibre':
+        source => "http://download.calibre-ebook.com/1.26.0/calibre-1.26.0.dmg",
+        provider => appdmg;
+      'Pogoplug':
+        source => "http://download.pogoplug.com/install/mac/pogoplugbackup.pkg",
+        provider => pkgdmg;
+# manual install
+#      'cooViewer':
+#        source => "http://www.geocities.jp/coo_ona/cooviewer1.2b24.dmg",
+#      '0xED':
+#        source => "http://www.suavetech.com/cgi-bin/download.cgi?0xED.tar.bz2",
+#        provider => ;
+#      'ImageAlpha':
+#        source => "http://pngmini.com/ImageAlpha1.3.5.tar.bz2",
+#        provider => ;
+#      'TheUnarchiver':
+#        source => "http://theunarchiver.googlecode.com/files/TheUnarchiver3.9.1.zip",
+#        provider => ;
+    }
 
   $home     = "/Users/${::boxen_user}"
   $dotfiles = "${home}/.dotfiles"
