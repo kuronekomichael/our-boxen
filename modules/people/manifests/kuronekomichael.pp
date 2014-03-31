@@ -118,6 +118,9 @@ class people::kuronekomichael {
   }
 
   package {
+      'Dash':
+        source => "http://tokyo.kapeli.com/Dash.zip",
+        provider => compressed_app;
       'GoogleJapaneseInput':
         source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
         provider => pkgdmg;
