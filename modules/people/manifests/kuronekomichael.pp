@@ -118,6 +118,9 @@ class people::kuronekomichael {
   }
 
   package {
+      'Vagrant1.5.2':
+        source => "https://dl.bintray.com/mitchellh/vagrant/vagrant_1.5.2.dmg",
+        provider => pkgdmg;
       'Dash':
         source => "http://tokyo.kapeli.com/Dash.zip",
         provider => compressed_app;
@@ -143,8 +146,9 @@ class people::kuronekomichael {
         source => "http://files2.genymotion.com/genymotion/genymotion-2.1.1/genymotion-2.1.1.dmg",
         provider => appdmg;
 # manual install
-#      'cooViewer':
-#        source => "http://www.geocities.jp/coo_ona/cooviewer1.2b24.dmg",
+      'cooViewer':
+        source => "http://www.geocities.jp/coo_ona/cooviewer1.2b24.dmg",
+        provider => pkgdmg;
 #      '0xED':
 #        source => "http://www.suavetech.com/cgi-bin/download.cgi?0xED.tar.bz2",
 #        provider => ;
