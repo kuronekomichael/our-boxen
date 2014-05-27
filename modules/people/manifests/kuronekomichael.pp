@@ -121,6 +121,9 @@ class people::kuronekomichael {
       'Vagrant1.5.2':
         source => "https://dl.bintray.com/mitchellh/vagrant/vagrant_1.5.2.dmg",
         provider => pkgdmg;
+      'VirusTotal':
+        source => "https://www.virustotal.com/static/bin/VirusTotalUploader_1.0.dmg",
+        provider => pkgdmg;
       'Dash':
         source => "http://tokyo.kapeli.com/Dash.zip",
         provider => compressed_app;
